@@ -11,3 +11,5 @@ class Modele(models.Model):
     Rodzaj_Paliwa = models.CharField(max_length=20)
     Cena = models.DecimalField(max_digits=12, decimal_places=2)
     Opis = models.TextField(blank=True)
+    def __str__(self):
+        return self.Marka + " " + self.Model
