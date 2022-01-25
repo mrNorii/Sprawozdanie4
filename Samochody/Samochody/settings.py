@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #My APP
     'Modele',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

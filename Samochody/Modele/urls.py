@@ -7,5 +7,5 @@ router.register(r'modeles', ModeleViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namesspace="rest_framework"))
+    path('api-auth/', include('rest_framework.urls', namespace="rest_framework"))
 ]

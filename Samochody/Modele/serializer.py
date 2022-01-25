@@ -4,4 +4,4 @@ from rest_framework import serializers
 class ModeleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Modele
-        fields = ['Id', 'Marka', 'Model', 'Rok', 'Przebieg', 'Pojemnosc_Silnika', 'Rodaj_Paliwa', 'Cena', 'Opis']
+        fields = ['Marka', 'Model', 'Rok', 'Przebieg', 'Pojemnosc_Silnika', 'Rodzaj_Paliwa', 'Cena', 'Opis']
