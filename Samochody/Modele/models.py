@@ -12,4 +12,4 @@ class Modele(models.Model):
     Cena = models.DecimalField(max_digits=12, decimal_places=2)
     Opis = models.TextField(blank=True)
     def __str__(self):
-        return self.Marka + " " + self.Model
+        return self.Marka + " " + self.Model + " "
